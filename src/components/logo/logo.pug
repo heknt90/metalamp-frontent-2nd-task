@@ -1,0 +1,6 @@
+mixin logo(type)
+    - console.log(type)
+    - const logoSrc = (type == 'watermark') ? "./images/logo-watermark.png" : "./images/logo-full.png"
+    - const logoAlt = (type == "watermark") ? "Toxin watermark" : "Toxin"
+    - const logoClasses = (type == "watermark") ? "logo logo_watermark page__watermark" : "logo"
+    img(src=require(logoSrc), alt=logoAlt, class=logoClasses)
