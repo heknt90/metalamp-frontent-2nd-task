@@ -1,5 +1,5 @@
-// block colorswatch
-.colorswatch {
+// block color-swatch
+.color-swatch {
     display: flex;
     width: 100%;
     max-width: 300px;
@@ -8,7 +8,7 @@
 }
 
 // sample element
-.colorswatch__sample {
+.color-swatch__sample {
     width: 70px;
     height: 70px;
     left: 150px;
@@ -17,35 +17,35 @@
     background-color: $color-dark-shade-5;
 }
 
-.colorswatch__sample_dark-shade-100 {
+.color-swatch__sample_dark-shade-100 {
     background-color: $color-dark-shade-100;
 }
 
-.colorswatch__sample_dark-shade-75 {
+.color-swatch__sample_dark-shade-75 {
     background-color: $color-dark-shade-75;
 }
 
-.colorswatch__sample_dark-shade-50 {
+.color-swatch__sample_dark-shade-50 {
     background-color: $color-dark-shade-50;
 }
 
-.colorswatch__sample_dark-shade-25 {
+.color-swatch__sample_dark-shade-25 {
     background-color: $color-dark-shade-25;
 }
 
-.colorswatch__sample_dark-shade-5 {
+.color-swatch__sample_dark-shade-5 {
     background-color: $color-dark-shade-5;
 }
 
-.colorswatch__sample_primary {
+.color-swatch__sample_primary {
     background-color: $color-primary;
 }
 
-.colorswatch__sample_secondary {
+.color-swatch__sample_secondary {
     background-color: $color-secondary;
 }
 
 // description element
-.colorswatch__description {
+.color-swatch__description {
     margin-left: 40px;
 }
