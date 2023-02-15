@@ -1,0 +1,7 @@
+mixin colorswatch(type, title, subtitle)
+    - const colorswatchClass = `colorswatch__sample colorswatch__sample_${type}`
+    .colorswatch
+        div(class=colorswatchClass)
+        .colorswatch__description 
+            h2 #{title} 
+            p #{subtitle}

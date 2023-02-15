@@ -1,0 +1,51 @@
+// block colorswatch
+.colorswatch {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: $color-white;
+}
+
+// sample element
+.colorswatch__sample {
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    background: #1F2041;
+    border-radius: 6px;
+    background-color: $color-dark-shade-5;
+}
+
+.colorswatch__sample_dark-shade-100 {
+    background-color: $color-dark-shade-100;
+}
+
+.colorswatch__sample_dark-shade-75 {
+    background-color: $color-dark-shade-75;
+}
+
+.colorswatch__sample_dark-shade-50 {
+    background-color: $color-dark-shade-50;
+}
+
+.colorswatch__sample_dark-shade-25 {
+    background-color: $color-dark-shade-25;
+}
+
+.colorswatch__sample_dark-shade-5 {
+    background-color: $color-dark-shade-5;
+}
+
+.colorswatch__sample_primary {
+    background-color: $color-primary;
+}
+
+.colorswatch__sample_secondary {
+    background-color: $color-secondary;
+}
+
+// description element
+.colorswatch__description {
+    margin-left: 40px;
+}
