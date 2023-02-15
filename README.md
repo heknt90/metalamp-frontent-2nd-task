@@ -3,3 +3,7 @@
 ## MetaLamp frontend education programm. The 2nd task
 
 [Demo](https://heknt90.github.io/metalamp-frontent-2nd-task)
+
+## Styleguide
+
+[Color and types](https://heknt90.github.io/metalamp-frontent-2nd-task/ui-kit/color-and-types.html)
