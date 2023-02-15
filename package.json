@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "MetaLamp frontend education programm. The 2nd task",
   "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heknt90/metalamp-frontent-2nd-task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heknt90/metalamp-frontent-2nd-task/issues"
+  },
+  "homepage": "https://github.com/heknt90/metalamp-frontent-2nd-task#readme",
   "scripts": {
     "start": "webpack serve --mode development --open",
     "build": "webpack --mode production"
