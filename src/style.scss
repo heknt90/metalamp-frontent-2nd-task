@@ -2,6 +2,7 @@
 @import './scss/fonts/montserrat';
 @import './scss/typography';
 @import './scss/common';
-@import "./scss/blocks"
+@import "./scss/blocks";
 
-// @import './components/logo/logo';
+@import './components/logo/logo';
+@import "./components/formfield/formfield.scss";

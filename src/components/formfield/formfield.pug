@@ -1,0 +1,6 @@
+mixin formfield(type, placeholder, label)
+    - const fieldId = type + "-" + (Math.ceil(Math.random() * 1000))
+    .form-field 
+        if label
+            label(for=fieldId).form-field__label #{label}
+        input(type=type, id=fieldId, placeholder=placeholder).form-field__input
