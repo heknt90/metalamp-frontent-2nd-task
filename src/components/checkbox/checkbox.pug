@@ -1,0 +1,10 @@
+mixin checkbox(isChecked, label, name, value)
+    - const checkboxId = "checkbox-" + (Math.ceil(Math.random() * 1000))
+    p.checkbox
+        if isChecked
+            input(type="checkbox", id=checkboxId, name=name, value=value, checked="checked").checkbox__field
+        else 
+            input(type="checkbox", id=checkboxId, name=name, value=value).checkbox__field
+        
+        span.checkbox__indicator
+        label(for=checkboxId).checkbox__label label
