@@ -12,14 +12,13 @@
   },
   "homepage": "https://github.com/heknt90/metalamp-frontent-2nd-task#readme",
   "scripts": {
-    "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "start": "webpack serve",
+    "build": "webpack --mode production --node-env=production"
   },
   "author": "Nikita Efremov <heknt90@mail.ru>",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
     "postcss-loader": "^7.0.2",

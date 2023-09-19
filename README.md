@@ -4,8 +4,9 @@
 
 [![Build and Deploy](https://github.com/heknt90/metalamp-frontent-2nd-task/actions/workflows/node-gh-pages.yml/badge.svg?branch=master)](https://github.com/heknt90/metalamp-frontent-2nd-task/actions/workflows/node-gh-pages.yml)
 
-[Demo on Github Pages](https://heknt90.github.io/metalamp-frontent-2nd-task)  
+[Demo on Github Pages](https://heknt90.github.io/metalamp-frontent-2nd-task)
 
-## Styleguide
+- [Project](https://heknt90.github.io/metalamp-frontent-2nd-task/landing.html) (see main project pages)
+- [UI Kit]((https://heknt90.github.io/metalamp-frontent-2nd-task/uikit.html)) (see UI Kit pages)
 
-[Color and types](https://heknt90.github.io/metalamp-frontent-2nd-task/ui-kit/color-and-types.html)
+
