@@ -18,6 +18,12 @@ const config = {
         open: true,
         watchFiles: ["src/**/*"]
     },
+    resolve: {
+        alias: {
+            Layouts: path.join(__dirname, "./src/layouts/"),
+            SCSS: path.join(__dirname, "./src/scss/"),
+        }
+    },
     module: {
         rules: [
             {
@@ -25,7 +31,7 @@ const config = {
                 loader: PugPlugin.loader,
             },
             {
-                test: /\.scss$/,
+                test: /\.scss|css$/,
                 use: [
                     'css-loader', 
                     'postcss-loader', 
