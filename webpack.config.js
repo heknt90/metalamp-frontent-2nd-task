@@ -22,6 +22,7 @@ const config = {
         alias: {
             Layouts: path.join(__dirname, "./src/layouts/"),
             SCSS: path.join(__dirname, "./src/scss/"),
+            Containers: path.join(__dirname, "./src/containers/"),
         }
     },
     module: {
