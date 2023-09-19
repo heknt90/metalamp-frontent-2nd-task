@@ -11,7 +11,9 @@ html(lang="ru")
             include includes/favicons.pug
 
             link(rel="stylesheet", href=require("normalize.css"))
-    body 
-        a(href="uikit.html") 
-            +logo("watermark")
+            link(rel="stylesheet", href=require("SCSS/styles-uikit.scss"))
+    body.uikit-page
+        nav.uikit-header
+            a(href="uikit.html") 
+                +logo("watermark")
         block content 

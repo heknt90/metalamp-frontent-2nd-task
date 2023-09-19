@@ -1,0 +1,14 @@
+@import "./variables";
+@import "./fonts/montserrat";
+@import "./typography";
+// @import "./common";
+
+.uikit-page {
+  padding-bottom: 140px;
+}
+
+.uikit-header {
+  max-width: 1380;
+  margin: 0 auto;
+  padding: 30px 67px;
+}
