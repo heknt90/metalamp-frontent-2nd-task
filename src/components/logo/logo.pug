@@ -1,5 +1,4 @@
 mixin logo(type)
-<<<<<<< HEAD
   - 
     let imagePath;
     if (type === "small") {
@@ -10,10 +9,4 @@ mixin logo(type)
       imagePath = "./images/logo.png"
     }
   img(src=require(imagePath), alt="Logo")
-=======
-    - console.log(type)
-    - const logoSrc = (type == 'watermark') ? "./images/logo-watermark.png" : "./images/logo-full.png"
-    - const logoAlt = (type == "watermark") ? "Toxin watermark" : "Toxin"
-    - const logoClasses = (type == "watermark") ? "logo logo_watermark page__watermark" : "logo"
-    img(src=require(logoSrc), alt=logoAlt, class=logoClasses)
->>>>>>> 40413d758cdcbb1307ed3fc121c2dacec5a1e905
+  
