@@ -1,0 +1,11 @@
+mixin logo(type)
+  - 
+    let imagePath;
+    if (type === "small") {
+      imagePath = "./images/logo.png"
+    } else if (type === "watermark") {
+      imagePath = "./images/logo-watermark.png"
+    } else {
+      imagePath = "./images/logo.png"
+    }
+  img(src=require(imagePath), alt="Logo")
