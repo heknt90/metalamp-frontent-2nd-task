@@ -7,22 +7,28 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+.heading-1,
+.heading-2,
+.heading-3 {
     margin-top: 0;
     line-height: 1.25;
     font-weight: bold;
     color: $color-dark-shade-100;
 }
 
-h1 {
+h1,
+.heading-1 {
     font-size: 24px;
 }
 
-h2 {
+h2,
+.heading-2 {
     font-size: 19px;
 }
 
-h3 {
+h3,
+.heading-3 {
     font-size: 12px;
     text-transform: uppercase;
 }

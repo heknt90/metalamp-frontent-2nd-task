@@ -7,6 +7,6 @@
 [Demo on Github Pages](https://heknt90.github.io/metalamp-frontent-2nd-task)
 
 - [Project](https://heknt90.github.io/metalamp-frontent-2nd-task/landing.html) (see main project pages)
-- [UI Kit]((https://heknt90.github.io/metalamp-frontent-2nd-task/uikit.html)) (see UI Kit pages)
+- [UI Kit](https://heknt90.github.io/metalamp-frontent-2nd-task/uikit.html) (see UI Kit pages)
 
 

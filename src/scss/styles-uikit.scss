@@ -3,6 +3,8 @@
 @import "./typography";
 // @import "./common";
 
+@import "Components/color-pallete/color-pallete.scss";
+
 .uikit-page {
   padding-bottom: 140px;
 }
@@ -11,4 +13,9 @@
   max-width: 1380;
   margin: 0 auto;
   padding: 30px 67px;
+}
+
+.container {
+  max-width: 1140;
+  margin: 0 auto;
 }

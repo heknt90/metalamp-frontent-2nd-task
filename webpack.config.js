@@ -10,14 +10,16 @@ const config = {
     entry: {
         index: getPagePath('index/index.pug'),
         uikit: getPagePath("uikit/uikit.pug"),
+        "uikit_colors_and_types": getPagePath("uikit/colors-and-types/colors-and-types.pug"),
     },
     output: {
-        path: path.resolve(__dirname, 'dist/'),
+        path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
     devServer: {
+        hot: true,
         open: true,
-        watchFiles: ["src/**/*"]
+        watchFiles: ["src/pages/**/*"],
     },
     resolve: {
         alias: {
