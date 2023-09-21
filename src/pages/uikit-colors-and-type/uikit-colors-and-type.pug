@@ -1,0 +1,39 @@
+extends Layouts/uikit.layout.pug
+include Components/color-pallete/color-pallete.pug
+
+block append head 
+  link(rel="stylesheet", href=require("./uikit-colors-and-type.scss"))
+
+block content 
+  .container
+    .colors-block.colors-block_first 
+      +colorpallete("dark-shade-100", "Dark Shade 100%", "#1F2041")
+      +colorpallete("dark-shade-75", "Dark Shade 75%", "#1F2041")
+      +colorpallete("dark-shade-50", "Dark Shade 50%", "#1F2041")
+      +colorpallete("dark-shade-25", "Dark Shade 25%", "#1F2041")
+      +colorpallete("dark-shade-5", "Dark Shade 5%", "#1F2041")
+      +colorpallete("primary", "Purple", "#BC9CFF")
+      +colorpallete("secondary", "Green", "#6FCF97")
+
+    .colors-block.colors-block_last 
+      table.table 
+        tbody 
+          tr 
+            td.table__first-column
+              span.heading-1 H1
+            td 
+              p.heading-1 This one is the sub-section or widget title
+          tr 
+            td.table__first-column
+              span.heading-2 H2
+            td 
+              p.heading-2 Next one is the item title inside widgets
+          tr 
+            td.table__first-column
+              span.heading-3 H3
+            td 
+              p.heading-3 This is a label or CTA text
+          tr 
+            td.table__first-column Body
+            td.table__last-cell
+              p This is the body text which is used for most<br> of the design, like paragraphs, lists, etc.

@@ -1,16 +1,18 @@
 doctype html
 html(lang="ru")
-    head
-        block head
-            meta(charset="UTF-8")
-            meta(http-equiv="X-UA-Compatible", content="IE=edge")
-            meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  head
+    block head
+      meta(charset="UTF-8")
+      meta(http-equiv="X-UA-Compatible", content="IE=edge")
+      meta(name="viewport", content="width=device-width, initial-scale=1.0")
 
-            include includes/favicons.pug
+      include includes/favicons.pug
 
-            link(rel="stylesheet", href=require("normalize.css"))
-            link(rel="stylesheet", href=require("SCSS/style.scss"))
-    body 
-        include Containers/header/header
-        block content 
-        include Containers/footer/footer
+      link(rel="stylesheet", href=require("normalize.css"))
+      link(rel="stylesheet", href=require("SCSS/styles.scss"))
+  body 
+    include Containers/header/header
+    block content 
+    include Containers/footer/footer
+    if isDev 
+      script(src=require("Root/hmr.js"))

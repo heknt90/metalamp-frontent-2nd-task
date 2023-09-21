@@ -1,0 +1,55 @@
+.color-pallete {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.color-pallete__sample {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+
+  &_dark-shade-100 {
+    background-color: $color-dark-shade-100;
+  }
+
+  &_dark-shade-75 {
+    background-color: $color-dark-shade-75;
+  }
+
+  &_dark-shade-50 {
+    background-color: $color-dark-shade-50;
+  }
+
+  &_dark-shade-25 {
+    background-color: $color-dark-shade-25;
+  }
+
+  &_dark-shade-5 {
+    background-color: $color-dark-shade-5;
+  }
+
+  &_primary {
+    background-color: $color-primary;
+  }
+
+  &_secondary {
+    background-color: $color-secondary;
+  }
+}
+
+.color-pallete__content {
+  margin-top: 5px;
+  margin-left: 40px;
+  font-size: 19px;
+}
+
+.color-pallete__title {
+  margin: 0;
+}
+
+.color-pallete__description {
+  margin: 0;
+  font-family: $font-additional;
+  font-weight: bold;
+}

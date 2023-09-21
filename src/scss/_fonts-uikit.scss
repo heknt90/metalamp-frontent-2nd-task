@@ -1,0 +1,5 @@
+@include font-face($font-main-name);
+@include font-face($font-main-name, Bold);
+
+@include font-face($font-additional-name);
+@include font-face($font-additional-name, Bold);
