@@ -11,7 +11,7 @@ module.exports  = {
     entry: {
         index: getPagePath('index/index.pug'),
         uikit: getPagePath("uikit/uikit.pug"),
-        "uikit_colors_and_types": getPagePath("uikit/colors-and-types/colors-and-types.pug"),
+        "uikit_colors_and_type": getPagePath("uikit-colors-and-type/uikit-colors-and-type.pug"),
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -36,6 +36,7 @@ module.exports  = {
             SCSS: path.join(__dirname, "./src/scss/"),
             Containers: path.join(__dirname, "./src/containers/"),
             Components: path.join(__dirname, "./src/components/"),
+            Fonts: path.join(__dirname, "./src/assets/fonts/"),
         }
     },
     module: {
