@@ -1,7 +1,7 @@
 @use "sass:string";
 
 @mixin font-face($font-name, $type: Regular) {
-  font-face {
+  @font-face {
     font-family: $font-name;
     src: url("Fonts/" + $font-name + "-" + $type + ".ttf");
     src: url("Fonts/" + $font-name + "-" + $type + ".eot");
