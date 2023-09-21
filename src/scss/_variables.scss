@@ -1,3 +1,4 @@
+// Colors
 $color-primary: #BC9CFF;
 $color-secondary: #6FCF97;
 
@@ -9,3 +10,10 @@ $color-dark-shade-25: rgba($color-dark-shade, 0.25);
 $color-dark-shade-5: rgba($color-dark-shade, 0.05);
 
 $color-white: #fff;
+
+// Fonts
+$font-main-name: Montserrat;
+$font-additional-name: Quicksand;
+
+$font-main: $font-main-name, Arial sans-serif;
+$font-additional: $font-additional-name, Arial sans-serif;
