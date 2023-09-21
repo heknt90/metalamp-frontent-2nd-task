@@ -1,7 +1,7 @@
 .color-pallete {
   display: flex;
+  padding: 10px;
   align-items: center;
-  margin: 10px;
 }
 
 .color-pallete__sample {
@@ -39,7 +39,9 @@
 }
 
 .color-pallete__content {
-  margin-left: 30px;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-size: 19px;
 }
 
 .color-pallete__title {
@@ -48,4 +50,6 @@
 
 .color-pallete__description {
   margin: 0;
+  font-family: $font-additional;
+  font-weight: bold;
 }
