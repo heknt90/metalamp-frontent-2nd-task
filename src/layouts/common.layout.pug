@@ -14,3 +14,5 @@ html(lang="ru")
         include Containers/header/header
         block content 
         include Containers/footer/footer
+        if isDev 
+            script(src=require("Root/hmr.js"))

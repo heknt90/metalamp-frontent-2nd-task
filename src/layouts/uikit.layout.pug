@@ -17,3 +17,5 @@ html(lang="ru")
             a(href="uikit.html") 
                 +logo("watermark")
         block content 
+        if isDev 
+            script(src=require("Root/hmr.js"))

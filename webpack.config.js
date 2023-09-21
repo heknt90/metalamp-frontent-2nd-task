@@ -5,8 +5,9 @@ const CopyWebpackPlugin  = require('copy-webpack-plugin')
 const isProduction = process.env.NODE_ENV == "production"
 const getPagePath = (page) => "./src/pages/" + page
 
-const config = {
+module.exports  = {
     target: "web",
+    mode: isProduction ? "production" : "development",
     entry: {
         index: getPagePath('index/index.pug'),
         uikit: getPagePath("uikit/uikit.pug"),
@@ -17,12 +18,20 @@ const config = {
         clean: true,
     },
     devServer: {
-        hot: true,
         open: true,
-        watchFiles: ["src/pages/**/*"],
+        static: {
+            directory: path.join(__dirname, 'dist')
+        },
+        watchFiles: {
+            paths: ["src/**/*.*"],
+            options: {
+                usePolling: true
+            }
+        },
     },
     resolve: {
         alias: {
+            Root: path.join(__dirname),
             Layouts: path.join(__dirname, "./src/layouts/"),
             SCSS: path.join(__dirname, "./src/scss/"),
             Containers: path.join(__dirname, "./src/containers/"),
@@ -34,6 +43,11 @@ const config = {
             {
                 test: /\.pug$/,
                 loader: PugPlugin.loader,
+                options: {
+                    data: {
+                        isDev: !isProduction
+                    }
+                }
             },
             {
                 test: /\.scss|css$/,
@@ -78,13 +92,4 @@ const config = {
         }
         ),
     ],
-}
-
-module.exports = () => {
-    if (isProduction) {
-        config.mode = "production"
-    } else {
-        config.mode = "development"
-    }
-    return config
 }

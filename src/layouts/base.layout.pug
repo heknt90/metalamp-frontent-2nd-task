@@ -11,3 +11,5 @@ html(lang="ru")
             link(rel="stylesheet", href=require("normalize.css"))
     body 
         block content 
+        if isDev 
+            script(src=require("Root/hmr.js"))
